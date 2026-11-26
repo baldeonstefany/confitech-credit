@@ -1,0 +1,41 @@
+{
+  "info": {
+    "_postman_id": "67045359-3f27-439a-b1c9-d71a432a7880",
+    "name": "CONFITECH ",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "18944883"
+  },
+  "item": [
+    {
+      "name": "Credito aprobado",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"dni\": \"72555144\",\r\n    \"nombre\": \"Stefany\",\r\n    \"edad\": 21,\r\n    \"ingreso_neto\": 5000,\r\n    \"monto_solicitado\": 25000,\r\n    \"plazo_meses\": 24,\r\n    \"score_crediticio\": 750,\r\n    \"clasificacion_sbs\": \"NORMAL\",\r\n    \"deuda_morosa_actual\": 0\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8083/api/v1/creditos/evaluacion",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "api",
+            "v1",
+            "creditos",
+            "evaluacion"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
