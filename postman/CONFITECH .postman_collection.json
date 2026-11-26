@@ -13,7 +13,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"dni\": \"72555144\",\r\n    \"nombre\": \"Stefany\",\r\n    \"edad\": 21,\r\n    \"ingreso_neto\": 5000,\r\n    \"monto_solicitado\": 25000,\r\n    \"plazo_meses\": 24,\r\n    \"score_crediticio\": 750,\r\n    \"clasificacion_sbs\": \"NORMAL\",\r\n    \"deuda_morosa_actual\": 0\r\n}",
+          "raw": "{\r\n    \"dni\": \"00000001\",\r\n    \"nombre\": \"Stefany\",\r\n    \"edad\": 21,\r\n    \"ingreso_neto\": 5000,\r\n    \"monto_solicitado\": 25000,\r\n    \"plazo_meses\": 24,\r\n    \"score_crediticio\": 750,\r\n    \"clasificacion_sbs\": \"NORMAL\",\r\n    \"deuda_morosa_actual\": 0\r\n}",
           "options": {
             "raw": {
               "language": "json"

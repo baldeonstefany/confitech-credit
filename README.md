@@ -6,7 +6,7 @@ Importar Confitech.postman_collection.json en Postman. Ejemplo:
 
 ```json
 {
-  "dni": "72555144",
+  "dni": "00000004",
   "nombre": "Stefany",
   "edad": 26,
   "ingreso_neto": 5000,
